@@ -1,4 +1,4 @@
-package sparta.study.product.entity;
+package sparta.study.api.product.entity;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;
@@ -6,7 +6,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
-import sparta.study.category.entity.Category;
+import sparta.study.api.category.entity.Category;
 
 import java.time.LocalDateTime;
 

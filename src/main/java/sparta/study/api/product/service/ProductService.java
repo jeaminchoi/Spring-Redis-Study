@@ -1,8 +1,8 @@
-package sparta.study.product.service;
+package sparta.study.api.product.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import sparta.study.product.repository.ProductRepository;
+import sparta.study.api.product.repository.ProductRepository;
 
 @Service
 @RequiredArgsConstructor

@@ -1,9 +1,9 @@
-package sparta.study.product.controller;
+package sparta.study.api.product.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import sparta.study.product.service.ProductService;
+import sparta.study.api.product.service.ProductService;
 
 @RestController
 @RequestMapping("/api/products")
